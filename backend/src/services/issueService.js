@@ -6,7 +6,6 @@ const getIssues = async () => {
       isDeleted: false,
     },
   });
-  console.log('issue : ', issues);
   return issues;
 };
 
